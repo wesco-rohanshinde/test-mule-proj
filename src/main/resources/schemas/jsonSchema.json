@@ -1,0 +1,213 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "details": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "machinegroupCode": {
+              "type": "string"
+            },
+            "machinegroupName": {
+              "type": "string"
+            },
+            "machinesubGroupCode": {
+              "type": "string"
+            },
+            "machinesubGroupName": {
+              "type": "string"
+            },
+            "implementgroupCode": {
+              "type": "string"
+            },
+            "implementgroupName": {
+              "type": "string"
+            },
+            "implementsubGroupCode": {
+              "type": "string"
+            },
+            "implementsubGroupName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "machinegroupCode",
+            "machinegroupName",
+            "machinesubGroupCode",
+            "machinesubGroupName",
+            "implementgroupCode",
+            "implementgroupName",
+            "implementsubGroupCode",
+            "implementsubGroupName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "machinegroupCode": {
+              "type": "string"
+            },
+            "machinegroupName": {
+              "type": "string"
+            },
+            "machinesubGroupCode": {
+              "type": "string"
+            },
+            "machinesubGroupName": {
+              "type": "string"
+            },
+            "implementgroupCode": {
+              "type": "string"
+            },
+            "implementgroupName": {
+              "type": "string"
+            },
+            "implementsubGroupCode": {
+              "type": "string"
+            },
+            "implementsubGroupName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "machinegroupCode",
+            "machinegroupName",
+            "machinesubGroupCode",
+            "machinesubGroupName",
+            "implementgroupCode",
+            "implementgroupName",
+            "implementsubGroupCode",
+            "implementsubGroupName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "machinegroupCode": {
+              "type": "string"
+            },
+            "machinegroupName": {
+              "type": "string"
+            },
+            "machinesubGroupCode": {
+              "type": "string"
+            },
+            "machinesubGroupName": {
+              "type": "string"
+            },
+            "implementgroupCode": {
+              "type": "string"
+            },
+            "implementgroupName": {
+              "type": "string"
+            },
+            "implementsubGroupCode": {
+              "type": "string"
+            },
+            "implementsubGroupName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "machinegroupCode",
+            "machinegroupName",
+            "machinesubGroupCode",
+            "machinesubGroupName",
+            "implementgroupCode",
+            "implementgroupName",
+            "implementsubGroupCode",
+            "implementsubGroupName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "machinegroupCode": {
+              "type": "string"
+            },
+            "machinegroupName": {
+              "type": "string"
+            },
+            "machinesubGroupCode": {
+              "type": "string"
+            },
+            "machinesubGroupName": {
+              "type": "string"
+            },
+            "implementgroupCode": {
+              "type": "string"
+            },
+            "implementgroupName": {
+              "type": "string"
+            },
+            "implementsubGroupCode": {
+              "type": "string"
+            },
+            "implementsubGroupName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "machinegroupCode",
+            "machinegroupName",
+            "machinesubGroupCode",
+            "machinesubGroupName",
+            "implementgroupCode",
+            "implementgroupName",
+            "implementsubGroupCode",
+            "implementsubGroupName"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "machinegroupCode": {
+              "type": "string"
+            },
+            "machinegroupName": {
+              "type": "string"
+            },
+            "machinesubGroupCode": {
+              "type": "string"
+            },
+            "machinesubGroupName": {
+              "type": "string"
+            },
+            "implementgroupCode": {
+              "type": "string"
+            },
+            "implementgroupName": {
+              "type": "string"
+            },
+            "implementsubGroupCode": {
+              "type": "string"
+            },
+            "implementsubGroupName": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "machinegroupCode",
+            "machinegroupName",
+            "machinesubGroupCode",
+            "machinesubGroupName",
+            "implementgroupCode",
+            "implementgroupName",
+            "implementsubGroupCode",
+            "implementsubGroupName"
+          ]
+        }
+      ]
+    },
+    "workuuid": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "details",
+    "workuuid"
+  ]
+}

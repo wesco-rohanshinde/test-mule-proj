@@ -1,0 +1,100 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1593526736.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"machines"
+	],
+	"properties": {
+		"machines": {
+			"$id": "#root/machines", 
+			"title": "Machines", 
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/machines/items", 
+				"title": "Items", 
+				"type": "object",
+				"required": [
+					"groupCode",
+					"groupName",
+					"implements",
+					"workTypeUUID"
+				],
+				"properties": {
+					"groupCode": {
+						"$id": "#root/machines/items/groupCode", 
+						"title": "Groupcode", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"A"
+						],
+						"pattern": "^.*$"
+					},
+					"groupName": {
+						"$id": "#root/machines/items/groupName", 
+						"title": "Groupname", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Tractors"
+						],
+						"pattern": "^.*$"
+					},
+					"implements": {
+						"$id": "#root/machines/items/implements", 
+						"title": "Implements", 
+						"type": "array",
+						"default": [],
+						"items":{
+							"$id": "#root/machines/items/implements/items", 
+							"title": "Items", 
+							"type": "object",
+							"required": [
+								"groupCode",
+								"groupName"
+							],
+							"properties": {
+								"groupCode": {
+									"$id": "#root/machines/items/implements/items/groupCode", 
+									"title": "Groupcode", 
+									"type": "string",
+									"default": "",
+									"examples": [
+										"H"
+									],
+									"pattern": "^.*$"
+								},
+								"groupName": {
+									"$id": "#root/machines/items/implements/items/groupName", 
+									"title": "Groupname", 
+									"type": "string",
+									"default": "",
+									"examples": [
+										"Sprayers"
+									],
+									"pattern": "^.*$"
+								}
+							}
+						}
+
+					},
+					"workTypeUUID": {
+						"$id": "#root/machines/items/workTypeUUID", 
+						"title": "Worktypeuuid", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"d0248690-8d03-11e9-bc42-526af7764f64"
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}

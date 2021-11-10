@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "machines": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "groupCode": {
+              "type": "string"
+            },
+            "groupName": {
+              "type": "string"
+            },
+            "implements": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "groupCode": {
+                      "type": "string"
+                    },
+                    "groupName": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "groupCode",
+                    "groupName"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "groupCode": {
+                      "type": "string"
+                    },
+                    "groupName": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "groupCode",
+                    "groupName"
+                  ]
+                }
+              ]
+            },
+            "workTypeUUID": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "groupCode",
+            "groupName",
+            "implements",
+            "workTypeUUID"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "machines"
+  ]
+}

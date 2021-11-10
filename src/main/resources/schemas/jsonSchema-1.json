@@ -1,0 +1,127 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1593526684.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"details",
+		"workuuid"
+	],
+	"properties": {
+		"details": {
+			"$id": "#root/details", 
+			"title": "Details", 
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/details/items", 
+				"title": "Items", 
+				"type": "object",
+				"required": [
+					"machinegroupCode",
+					"machinegroupName",
+					"machinesubGroupCode",
+					"machinesubGroupName",
+					"implementgroupCode",
+					"implementgroupName",
+					"implementsubGroupCode",
+					"implementsubGroupName"
+				],
+				"properties": {
+					"machinegroupCode": {
+						"$id": "#root/details/items/machinegroupCode", 
+						"title": "Machinegroupcode", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"A"
+						],
+						"pattern": "^.*$"
+					},
+					"machinegroupName": {
+						"$id": "#root/details/items/machinegroupName", 
+						"title": "Machinegroupname", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Tractors"
+						],
+						"pattern": "^.*$"
+					},
+					"machinesubGroupCode": {
+						"$id": "#root/details/items/machinesubGroupCode", 
+						"title": "Machinesubgroupcode", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"AA"
+						],
+						"pattern": "^.*$"
+					},
+					"machinesubGroupName": {
+						"$id": "#root/details/items/machinesubGroupName", 
+						"title": "Machinesubgroupname", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"VSF"
+						],
+						"pattern": "^.*$"
+					},
+					"implementgroupCode": {
+						"$id": "#root/details/items/implementgroupCode", 
+						"title": "Implementgroupcode", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"H"
+						],
+						"pattern": "^.*$"
+					},
+					"implementgroupName": {
+						"$id": "#root/details/items/implementgroupName", 
+						"title": "Implementgroupname", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Sprayerss"
+						],
+						"pattern": "^.*$"
+					},
+					"implementsubGroupCode": {
+						"$id": "#root/details/items/implementsubGroupCode", 
+						"title": "Implementsubgroupcode", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"HB"
+						],
+						"pattern": "^.*$"
+					},
+					"implementsubGroupName": {
+						"$id": "#root/details/items/implementsubGroupName", 
+						"title": "Implementsubgroupname", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Trailed"
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		},
+		"workuuid": {
+			"$id": "#root/workuuid", 
+			"title": "Workuuid", 
+			"type": "string",
+			"default": "",
+			"examples": [
+				"f7e4d8cc-ba6d-11ea-b3de-0242ac130004"
+			],
+			"pattern": "^.*$"
+		}
+	}
+}

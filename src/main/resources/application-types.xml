@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="json" format="json">
+      <types:shape format="json-schema" location="schemas/jsonSchema-1.json"/>
+    </types:type>
+    <types:type name="opjson" format="json">
+      <types:shape format="json-schema" location="schemas/opSchema-1.json"/>
+    </types:type>
+  </types:catalog>
+</types:mule>
